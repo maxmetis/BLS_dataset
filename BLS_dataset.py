@@ -34,8 +34,8 @@ def get_bls_data(series, start, end):
         print('Reason:', json_data['message'])
 
 
-start = 2000
-end = 2020
+start = 'input start year'
+end = 'input end year
 series = ['pcu325199325199p','pcu3251803251806','pcu332618332618','pcu3149943149947','pcu325212325212p']
 
 df = get_bls_data(series=series, start=start, end=end)
